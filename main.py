@@ -2,8 +2,7 @@ import os
 
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "/output")
 LINE = (
-    "Good news: I found the bug. Bad news: it was me, "
-    "it is in production, and it has already replicated itself into three other services."
+    "Good news: I found the bug. Bad news: it was me, it is live in production, and it has already replicated into three other services and opened a ticket blaming you."
 )
 
 
